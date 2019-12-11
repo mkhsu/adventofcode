@@ -64,7 +64,7 @@ def computer(i, Q, ptrs, offsets):
 d = 0
 x, y = 0, 0
 grid = collections.defaultdict(str)
-grid[(x,y)] = '■'   # '□' for part1
+grid[(x,y)] = '■'   # ' ' for part1
 s = set()
 Q = [[]]
 offsets = [0]
